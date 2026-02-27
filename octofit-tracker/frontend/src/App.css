@@ -1,0 +1,114 @@
+
+.App {
+  text-align: center;
+  background: linear-gradient(135deg, #e0eafc 0%, #cfdef3 100%);
+  min-height: 100vh;
+  color: #22223b;
+}
+
+
+.App-logo {
+  height: 60px;
+  margin-right: 16px;
+  float: left;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+
+.App-header {
+  background: #4f8cff;
+  min-height: 120px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  font-size: calc(12px + 2vmin);
+  color: #fff;
+  padding: 16px 32px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+}
+
+
+.App-link {
+  color: #4f8cff;
+  font-weight: 500;
+  text-decoration: underline;
+}
+
+/* Bootstrap overrides */
+table.table {
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+  color: #22223b;
+}
+
+th {
+  background: #4f8cff !important;
+  color: #fff !important;
+}
+
+tr:nth-child(even) {
+  background: #f1f6fb;
+}
+
+.btn, .btn-primary {
+  background: #4f8cff;
+  border: none;
+  color: #fff;
+  font-weight: 500;
+  border-radius: 6px;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.07);
+}
+
+.btn:hover, .btn-primary:hover {
+  background: #2d6cdf;
+}
+
+h1, h2, h3, h4, h5 {
+  color: #22223b;
+  font-weight: 700;
+}
+
+.navbar {
+  background: linear-gradient(90deg, #4f8cff 60%, #a1c4fd 100%) !important;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+}
+
+.navbar-brand, .nav-link {
+  color: #fff !important;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+
+.nav-link.active, .nav-link:focus, .nav-link:hover {
+  color: #22223b !important;
+  background: #e0eafc !important;
+  border-radius: 4px;
+}
+
+/* Card and modal styling for future use */
+.card {
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+}
+
+.modal-content {
+  border-radius: 12px;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
